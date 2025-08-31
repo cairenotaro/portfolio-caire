@@ -21,7 +21,6 @@ body {
   overflow-x: hidden;
 }
 
-/* 🧭 Cabeçalho fixo no topo */
 header {
   width: 100%;
   background-color: var(--preto);
@@ -83,10 +82,9 @@ h1 {
   border: 1px solid var(--azul-claro);
 }
 
-/* 🌟 Hero Section como tela inicial */
 .hero {
   height: 100vh;
-  padding: 120px 40px 40px; /* compensação para o header fixo */
+  padding: 120px 40px 40px;
   background: linear-gradient(135deg, var(--bege-claro), var(--bege-medio));
   display: flex;
   flex-direction: column;
@@ -146,7 +144,6 @@ h1 {
   color: white;
 }
 
-/* 👤 Seções gerais */
 section {
   padding: 60px 40px;
   max-width: 1000px;
@@ -174,7 +171,6 @@ h3::after {
   border-radius: 2px;
 }
 
-/* 🧩 Cards de projetos */
 .progetti-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -206,7 +202,6 @@ h3::after {
   font-weight: 500;
 }
 
-/* 🏷️ Tags de tecnologia */
 .tags {
   margin: 10px 0;
 }
@@ -221,7 +216,6 @@ h3::after {
   display: inline-block;
 }
 
-/* 📬 Formulário de contato */
 .contatto-form {
   display: flex;
   flex-direction: column;
@@ -307,7 +301,6 @@ footer {
   color: white;
 }
 
-/* 📱 Responsividade */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #1F1F1F;
@@ -378,3 +371,4 @@ footer {
     color: white;
   }
 }
+
