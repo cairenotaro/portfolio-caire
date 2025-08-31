@@ -34,15 +34,7 @@ Creare una pagina di presentazione moderna e funzionale che rappresenti la mia i
 ## 🌐 Sito online
 
 🔗 Visualizza il portfolio pubblicato:  
-**[https://caire-notaro.github.io/portfolio-caire](https://caire-notaro.github.io/portfolio-caire)**  
 https://cairenotaro.github.io/portfolio-caire/
-
----
-
-## 📸 Anteprima
-
-![Anteprima del sito](preview.png)  
-*(Puoi aggiungere uno screenshot del sito e rinominarlo `preview.png`)*
 
 ---
 
