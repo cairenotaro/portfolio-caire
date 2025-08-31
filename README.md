@@ -35,7 +35,7 @@ Creare una pagina di presentazione moderna e funzionale che rappresenti la mia i
 
 🔗 Visualizza il portfolio pubblicato:  
 **[https://caire-notaro.github.io/portfolio-caire](https://caire-notaro.github.io/portfolio-caire)**  
-*(Aggiorna il link dopo aver attivato GitHub Pages)*
+https://cairenotaro.github.io/portfolio-caire/
 
 ---
 
