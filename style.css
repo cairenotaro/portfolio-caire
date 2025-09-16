@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
 }
 
-/* 🧭 Cabeçalho fixo no topo */
+/* Fixed header at the top */
 header {
   width: 100%;
   background-color: var(--preto);
@@ -83,10 +83,10 @@ h1 {
   border: 1px solid var(--azul-claro);
 }
 
-/* 🌟 Hero Section como tela inicial */
+/*  Hero Section as initial screen */
 .hero {
   height: 100vh;
-  padding: 120px 40px 40px; /* compensação para o header fixo */
+  padding: 120px 40px 40px; /* offset for fixed header */
   background: linear-gradient(135deg, var(--bege-claro), var(--bege-medio));
   display: flex;
   flex-direction: column;
@@ -146,7 +146,7 @@ h1 {
   color: white;
 }
 
-/* 👤 Seções gerais */
+/*  General sections */
 section {
   padding: 60px 40px;
   max-width: 1000px;
@@ -174,7 +174,7 @@ h3::after {
   border-radius: 2px;
 }
 
-/* 🧩 Cards de projetos */
+/*  Project cards */
 .progetti-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -206,7 +206,7 @@ h3::after {
   font-weight: 500;
 }
 
-/* 🏷️ Tags de tecnologia */
+/*  Technology tags */
 .tags {
   margin: 10px 0;
 }
@@ -221,7 +221,7 @@ h3::after {
   display: inline-block;
 }
 
-/* 📬 Formulário de contato */
+/*  Contact form */
 .contatto-form {
   display: flex;
   flex-direction: column;
@@ -260,7 +260,7 @@ h3::after {
   box-shadow: 0 0 4px rgba(58, 90, 128, 0.3);
 }
 
-/* 🔗 Lista com ícones sociais */
+/*  Social icons list */
 .social-list {
   list-style: none;
   padding: 0;
@@ -287,7 +287,7 @@ h3::after {
   height: 24px;
 }
 
-/* 🧱 Rodapé */
+/*  Footer */
 footer {
   background-color: var(--preto);
   color: white;
@@ -307,7 +307,7 @@ footer {
   color: white;
 }
 
-/* 📱 Responsividade */
+/*  Responsiveness */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #1F1F1F;
@@ -378,3 +378,4 @@ footer {
     color: white;
   }
 }
+
