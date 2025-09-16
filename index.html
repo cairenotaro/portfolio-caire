@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cairê | Sviluppatore Front-End</title>
 
-  <!-- Fonte moderna -->
+  <!-- Modern font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
-  <!-- Estilos -->
+  <!-- Styles -->
   <link rel="stylesheet" href="style.css" />
 
-  <!-- Biblioteca de animações -->
+  <!-- Animation library -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
 
-  <!-- 🧭 Cabeçalho com menu hamburguer -->
+  <!--  Header with hamburger menu -->
   <header>
     <button class="menu-toggle" aria-label="Apri il menu">☰</button>
     <nav>
@@ -28,7 +28,7 @@
     </nav>
   </header>
 
-  <!-- 🌟 Hero Section -->
+  <!--  Hero section -->
   <section class="hero">
     <img src="caire.jpg" alt="Foto di Cairê" class="avatar" data-aos="fade-right" data-aos-duration="1000" />
     <div class="hero-texto" data-aos="fade-left">
@@ -38,13 +38,13 @@
     </div>
   </section>
 
-  <!-- 👤 Seção "Chi sono" -->
+  <!--  "Chi sono" section -->
   <section id="chi-sono" data-aos="fade-up">
     <h3>Chi sono</h3>
     <p>Mi chiamo Cairê, sono uno sviluppatore front-end in formazione, con competenze in HTML, CSS, JavaScript e React.</p>
   </section>
 
-  <!-- 🧩 Seção de projetos -->
+  <!--  Projects section -->
   <section id="progetti">
     <h3>Progetti</h3>
     <div class="progetti-grid">
@@ -92,11 +92,12 @@
     </div>
   </section>
 
-  <!-- 📬 Seção de contato -->
+  <!--  Contact section -->
   <section id="contatti" data-aos="fade-up">
     <h3>Contatti</h3>
     <p>Mi trovi anche su LinkedIn e GitHub oppure scrivimi direttamente qui sotto:</p>
 
+    <!-- Contact form -->
     <form class="contatto-form" action="mailto:cairesamuel@hotmail.com" method="POST" enctype="text/plain">
       <label for="nome">Nome</label>
       <input type="text" id="nome" name="nome" required>
@@ -110,6 +111,7 @@
       <button type="submit" class="btn">Invia Messaggio</button>
     </form>
 
+    <!-- Social links -->
     <ul class="social-list">
       <li>
         <a href="https://www.linkedin.com/in/caire-notaro" target="_blank">
@@ -124,7 +126,7 @@
     </ul>
   </section>
 
-  <!-- 🧱 Rodapé -->
+  <!--  Footer -->
   <footer>
     <p>© 2025 Cairê. Tutti i diritti riservati.</p>
     <div class="social">
@@ -133,11 +135,12 @@
     </div>
   </footer>
 
-  <!-- 🔧 Scripts -->
+  <!-- Scripts -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
 
+    // Toggle menu visibility
     const toggle = document.querySelector('.menu-toggle');
     const menu = document.querySelector('.menu');
 
